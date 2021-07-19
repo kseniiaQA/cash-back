@@ -1,44 +1,25 @@
 
 package ru.netology.service;
 
-import org.testng.annotations.Test;
+import org.junit.Test;
 
-import static org.testng.Assert.*;
+import static org.junit.Assert.*;
 
 public class CashbackHackServiceTest {
     private CashbackHackService cashbackHackService = new CashbackHackService();
 
     @Test
-    public void checkWhen1() {
-        assertEquals(cashbackHackService.remain(1), 999);
+    public void underThousand() {
+        assertEquals(cashbackHackService.remain(900),100 );
     }
 
     @Test
-    public void checkWhen1000() {
+    public void aboveThousand() {
+        assertEquals(cashbackHackService.remain(5900), 100);
+    }
+
+    @Test
+    public void checkThousand() {
         assertEquals(cashbackHackService.remain(1000), 0);
     }
-
-    @Test
-    public void checkWhenAboveThousand() {
-        assertEquals(cashbackHackService.remain(1100), 900);
-    }
-
-    @Test
-    public void negativeAmount() {
-        assertEquals(cashbackHackService.remain(-100), 1100);
-    }
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
-

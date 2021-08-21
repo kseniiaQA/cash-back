@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="ru.netology.service.CashbackHackServiceTest" tests="3" skipped="0" failures="1" errors="0" timestamp="2021-07-26T09:27:18" hostname="DESKTOP-H6MRP86" time="0.026">
+<testsuite name="ru.netology.service.CashbackHackServiceTest" tests="3" skipped="0" failures="1" errors="0" timestamp="2021-08-21T06:26:19" hostname="DESKTOP-H6MRP86" time="0.005">
   <properties/>
-  <testcase name="checkThousand" classname="ru.netology.service.CashbackHackServiceTest" time="0.024">
+  <testcase name="checkThousand" classname="ru.netology.service.CashbackHackServiceTest" time="0.005">
     <failure message="java.lang.AssertionError: expected:&lt;1000&gt; but was:&lt;0&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;1000&gt; but was:&lt;0&gt;
 	at org.junit.Assert.fail(Assert.java:89)
 	at org.junit.Assert.failNotEquals(Assert.java:835)
@@ -60,7 +60,7 @@
 	at java.base/java.lang.Thread.run(Thread.java:834)
 </failure>
   </testcase>
-  <testcase name="underThousand" classname="ru.netology.service.CashbackHackServiceTest" time="0.001"/>
+  <testcase name="underThousand" classname="ru.netology.service.CashbackHackServiceTest" time="0.0"/>
   <testcase name="aboveThousand" classname="ru.netology.service.CashbackHackServiceTest" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>

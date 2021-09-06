@@ -20,6 +20,6 @@ public class CashbackHackServiceTest {
 
     @Test
     public void checkThousand() {
-        assertEquals(cashbackHackService.remain(0), 1000);
+        assertEquals(cashbackHackService.remain(0), 2000);
     }
 }

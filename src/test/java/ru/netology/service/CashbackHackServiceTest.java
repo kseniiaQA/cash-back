@@ -15,7 +15,7 @@ public class CashbackHackServiceTest {
 
     @Test
     public void checkWhen1000() {
-        assertEquals(cashbackHackService.remain(2000), 0);
+        assertEquals(cashbackHackService.remain(1000), 0);
     }
 
     @Test
